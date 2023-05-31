@@ -1,7 +1,7 @@
 {
   "context": "client",
   "identifier": "com.pa.quitch.copy-replay-id-dev",
-  "display_name": "AI Chat DEV",
+  "display_name": "Copy Replay ID DEV",
   "description": "Adds a button to the replays browser to copy the selected replay ID to clipboard.",
   "author": "Quitch",
   "version": "0.1",
