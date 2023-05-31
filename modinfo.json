@@ -10,7 +10,7 @@
   "signature": " ",
   "forum": "https://steamcommunity.com/app/386070/discussions/0/3836550120030300950/",
   "category": ["classic", "titans", "ui"],
-  "icon": "",
+  "icon": "https://raw.githubusercontent.com/Quitch/Copy-Replay-ID/main/images/icon.png",
   "priority": 100,
   "github": "https://github.com/Quitch/Copy-Replay-ID",
   "scenes": {
