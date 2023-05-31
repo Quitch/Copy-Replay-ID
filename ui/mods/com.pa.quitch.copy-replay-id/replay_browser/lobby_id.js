@@ -18,10 +18,10 @@ if (!copyReplayIDButtonLoaded) {
           return "";
         }
 
-        var currentSelectedGame = model.currentSelectedGame();
-        var replayId = currentSelectedGame.host_id;
-        var requiredContent = currentSelectedGame.required_content
-          ? currentSelectedGame.required_content + ":"
+        var selectedGame = model.currentSelectedGame();
+        var replayId = selectedGame.host_id;
+        var requiredContent = selectedGame.required_content
+          ? selectedGame.required_content + ":"
           : "";
         return requiredContent + replayId;
       };
