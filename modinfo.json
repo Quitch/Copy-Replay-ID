@@ -1,7 +1,7 @@
 {
   "context": "client",
-  "identifier": "com.pa.quitch.copy-replay-id-dev",
-  "display_name": "Copy Replay ID DEV",
+  "identifier": "com.pa.quitch.copy-replay-id",
+  "display_name": "Copy Replay ID",
   "description": "Displays the direct lobby ID in the replay browser in a format you can easily copy for passing to others.",
   "author": "Quitch",
   "version": "1.0",
