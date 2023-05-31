@@ -15,7 +15,7 @@ if (!copyReplayIDButtonLoaded) {
 
       var formattedId = function () {
         if (!model.canViewReplay()) {
-          return;
+          return "";
         }
 
         var currentSelectedGame = model.currentSelectedGame();
