@@ -12,7 +12,9 @@
   "extends": ["eslint:recommended", "plugin:lodash/v3", "prettier"],
   "globals": {
     "model": "readonly",
-    "_": "readonly"
+    "_": "readonly",
+    "loadHtml": "readonly",
+    "ko": "readonly"
   },
   "plugins": ["lodash"],
   "rules": {
