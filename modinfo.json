@@ -1,0 +1,21 @@
+{
+  "context": "client",
+  "identifier": "com.pa.quitch.copy-replay-id-dev",
+  "display_name": "AI Chat DEV",
+  "description": "Adds a button to the replays browser to copy the selected replay ID to clipboard.",
+  "author": "Quitch",
+  "version": "0.1",
+  "build": "116946",
+  "date": "2023-05-31",
+  "signature": " ",
+  "forum": "",
+  "category": ["classic", "titans", "ui"],
+  "icon": "",
+  "priority": 100,
+  "github": "https://github.com/Quitch/Copy-Replay-ID",
+  "scenes": {
+    "replay_browser": [
+      "coui://ui/mods/com.pa.quitch.copy-replay-id/replay_browser/copy.js"
+    ]
+  }
+}
