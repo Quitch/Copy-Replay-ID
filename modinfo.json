@@ -15,7 +15,7 @@
   "github": "https://github.com/Quitch/Copy-Replay-ID",
   "scenes": {
     "replay_browser": [
-      "coui://ui/mods/com.pa.quitch.copy-replay-id/replay_browser/copy.js"
+      "coui://ui/mods/com.pa.quitch.copy-replay-id/replay_browser/lobby_id.js"
     ]
   }
 }
