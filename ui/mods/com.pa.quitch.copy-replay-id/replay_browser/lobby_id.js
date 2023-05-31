@@ -5,13 +5,13 @@ if (!copyReplayIDButtonLoaded) {
 
   function copyReplayIDButton() {
     try {
+      model.gameId = ko.observable("");
+
       $(".section_controls").append(
         loadHtml(
           "coui://ui/mods/com.pa.quitch.copy-replay-id/replay_browser/lobby_id.html"
         )
       );
-
-      model.gameId = ko.observable("");
 
       var formattedId = function () {
         if (!model.canViewReplay()) {
