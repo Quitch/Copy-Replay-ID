@@ -14,10 +14,6 @@ if (!copyReplayIDButtonLoaded) {
       );
 
       var formattedId = function () {
-        if (!model.canViewReplay()) {
-          return "";
-        }
-
         var selectedGame = model.currentSelectedGame();
         var replayId = selectedGame.host_id;
         var requiredContent = selectedGame.required_content
@@ -27,6 +23,10 @@ if (!copyReplayIDButtonLoaded) {
       };
 
       model.currentSelectedGame.subscribe(function () {
+        if (!model.canViewReplay() || !model.currentSelectedGame()) {
+          return;
+        }
+
         model.gameId(formattedId());
       });
     } catch (e) {
