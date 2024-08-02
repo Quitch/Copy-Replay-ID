@@ -16,10 +16,10 @@ function copyReplayIDButton() {
       )
     );
 
-    var formattedId = function () {
-      var selectedGame = model.currentSelectedGame();
-      var replayId = selectedGame.host_id;
-      var requiredContent = selectedGame.required_content
+    const formattedId = function () {
+      const selectedGame = model.currentSelectedGame();
+      const replayId = selectedGame.host_id;
+      const requiredContent = selectedGame.required_content
         ? selectedGame.required_content + ":"
         : "";
       return requiredContent + replayId;
