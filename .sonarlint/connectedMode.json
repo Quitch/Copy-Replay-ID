@@ -1,5 +1,5 @@
 {
-    "sonarCloudOrganization": "quitch",
-    "projectKey": "Quitch_Copy-Replay-ID",
-    "region": "EU"
+  "sonarCloudOrganization": "quitch",
+  "projectKey": "Quitch_Copy-Replay-ID",
+  "region": "EU"
 }
