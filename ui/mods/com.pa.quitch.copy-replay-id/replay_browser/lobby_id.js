@@ -1,12 +1,4 @@
-var copyReplayIDButtonLoaded;
-
-function copyReplayIDButton() {
-  if (copyReplayIDButtonLoaded) {
-    return;
-  }
-
-  copyReplayIDButtonLoaded = true;
-
+(function () {
   try {
     model.gameId = ko.observable("");
 
@@ -36,5 +28,4 @@ function copyReplayIDButton() {
     console.error(e);
     console.error(JSON.stringify(e));
   }
-}
-copyReplayIDButton();
+})();
